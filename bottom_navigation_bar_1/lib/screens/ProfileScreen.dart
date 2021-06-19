@@ -11,7 +11,7 @@ class ProfilePage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Profile Screen", style: TextStyle(fontSize: 45, color: Colors.black, fontWeight: FontWeight.bold),),
+            Text("Profile Screen", style: TextStyle(fontSize: 45, color: Theme.of(context).textSelectionColor, fontWeight: FontWeight.bold),),
           ],
         ),
       ),

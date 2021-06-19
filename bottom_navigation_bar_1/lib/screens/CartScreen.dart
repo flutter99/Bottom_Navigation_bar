@@ -11,7 +11,7 @@ class CartPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Cart Screen", style: TextStyle(fontSize: 45, color: Colors.black, fontWeight: FontWeight.bold),),
+            Text("Cart Screen", style: TextStyle(fontSize: 45, color: Theme.of(context).textSelectionColor, fontWeight: FontWeight.bold),),
           ],
         ),
       ),
