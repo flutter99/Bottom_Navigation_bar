@@ -4,6 +4,7 @@ import 'package:bottom_navigation_bar_1/screens/HomeScreen.dart';
 import 'package:bottom_navigation_bar_1/screens/ProfileScreen.dart';
 import 'package:bottom_navigation_bar_1/screens/SearchScreen.dart';
 import 'package:flutter/material.dart';
+import 'package:easy_localization/easy_localization.dart';
 
 class Bottombar extends StatefulWidget {
   @override
@@ -72,12 +73,12 @@ class _BottombarState extends State<Bottombar> {
           items: [
             BottomNavigationBarItem(
               icon: Icon(Icons.home),
-              label: "Home",
+              label: "home".tr(),
               tooltip: "Home",
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.rss_feed),
-              label: "Feed",
+              label: "feed".tr(),
               tooltip: "Feed",
             ),
             BottomNavigationBarItem(
@@ -88,13 +89,13 @@ class _BottombarState extends State<Bottombar> {
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.shopping_bag),
-              label: "Cart",
+              label: "cart".tr(),
               tooltip: "Cart",
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.person),
-              label: "Profile",
-              tooltip: "Profile",
+              label: "profile".tr(),
+              tooltip: "profile".tr(),
             ),
           ],
         ),

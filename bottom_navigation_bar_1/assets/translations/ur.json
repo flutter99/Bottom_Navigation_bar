@@ -1,0 +1,15 @@
+{
+  "title" : "Flutter",
+  "home" : "گھر",
+  "feed" : "کھانا کھلانا",
+  "search" : "تلاش کریں",
+  "cart" : "ٹوکری",
+  "profile": "پروفائل",
+
+  "home_screen" : "گھر کی سکرین",
+  "feed_screen" : "فیڈ اسکرین",
+  "cart_screen" : "ٹوکری کی سکرین",
+  "search_screen" : "تلاش اسکرین",
+  "profile_screen" : "پروفائل اسکرین",
+  "change_theme" : "موضوع کو تبدیل کریں"
+}

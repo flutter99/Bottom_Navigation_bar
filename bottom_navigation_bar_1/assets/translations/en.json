@@ -1,0 +1,15 @@
+{
+  "title" : "Flutter Demo",
+  "home" : "Home",
+  "feed" : "Feed",
+  "search" : "Search",
+  "cart" : "Cart",
+  "profile": "Profile",
+
+  "home_screen" : "Home Screen",
+  "feed_screen" : "Feed Screen",
+  "cart_screen" : "Cart Screen",
+  "search_screen" : "Search Screen",
+  "profile_screen" : "Profile Screen",
+  "change_theme" : "Change Theme"
+}
